@@ -1,38 +1,185 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mainContainer{
+  background-image: url("https://res.cloudinary.com/dollmqugm/image/upload/v1710421616/chalk_fmkwwk.png");
+  background-size:cover;
+  width:150vw;
+  height:auto;
+  color:white;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.companyName{
+  display: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-top: 20px;
+  width:100vw;
+}
+.heading{
+  font-size:29px;
+
+}
+.downContainer{
+  display: flex;
+  flex-direction: column;
+  margin-left:135px;
+}
+.buyBtn{
+  padding:10px;
+  border-radius: 8px;
+  background-color: #d62121;
+  color:white;
+  border:none;
+  width:60px;
+  margin-left:120px;
+
+  letter-spacing: 0.5px;
+}
+.footerSection{
+  padding: 20px;
+}
+.sideHeader{
+  font-size: 20px;
+}
+.content{
+  font-weight: 500;
+}
+.footerSection{
+  display: flex;
+  flex-direction: row;
+}
+.high{
+  font-weight: bold;
+  font-size: 16px;
+}
+.startBtn{
+  padding:12px;
+  border-radius: 10px;
+  background-color: #d62121;
+  color:white;
+  border:none;
+  width:120px;
+  height:50px;
+  font-size:14px;
+  letter-spacing: 0.5px;
+  margin-top:5px;
+  font-weight: 600;
+}
+.footerSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #d62121;
+}
+.downloadBtn{
+  padding:12px;
+  border-radius: 10px;
+  background-color: #d62121;
+  color:white;
+  border:none;
+  width:140px;
+  font-weight: 600;
+  height: 50px;
+  font-size:14px;
+  letter-spacing: 0.5px;
+  margin-top: 5px;
+}
+p{
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: -20px;
+}
+.highlighter{
+  color:gold;
+}
+.leftContent{
+  width:100%;
+}
+.options{
+  margin-left: -28px;
+  display: none;
+  line-height: 30px;
+}
+.rightContainer{
+  margin-top:30px;
+  
+}
+.whatsappicon{
+  width:30px;
+  background-color:#25d366 ;
+}
+.chatBtn{
+  background-color:#34a853;
+  color:white;
+  width:130px;
+  padding:10px;
+  font-size:16px;
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  border:none;
+  border-radius: 8px;
+  margin-top: 20px;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.rightContainerlarge{
+  display: none;
+}
+@media (min-width:768px){
+  .mainContainer{
+    width:100vw;
   }
-  to {
-    transform: rotate(360deg);
+  .section{
+    width:70%;
+  }
+  .rightContainerlarge{
+    display: block;
+  }
+  .companyName{
+    display: block;
+    font-size:60px;
+    font-style: italic;
+    font-weight: 500;
+    font-family: fantasy;
+  }
+  .container{
+    flex-direction:row;
+    margin-left:70px;
+    width:80%;
+  }
+  .downContainer{
+    margin-left: 85px;
+  }
+  .rightContainer{
+    display: none;
+  }
+  .options{
+    display: block;
+  }
+  .Name{
+    display: block;
+    margin-right:20px;
+    font-weight: bold;
+  }
+  .rightContainerlarge{
+    margin-top: 45px;
+    display: block;
+    margin-left: 20px;
+  }
+  .footerSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .sideHeader2{
+    font-size: 14px;
+  }
+  .buyBtn{
+    margin-left: 200px;
+  }
+  .leftContent{
+    width:100%;
   }
 }
