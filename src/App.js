@@ -14,18 +14,18 @@ function App() {
           </ul>
         </div>
         <div className="rightContainer">
-        <iframe width="320" height="250" src="https://www.youtube.com/embed/jg5d59ligW4" title="Mobishaala Digital Classroom" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="350" height="180" src="https://www.youtube.com/embed/jg5d59ligW4" title="Mobishaala Digital Classroom" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <button type="button" className="buyBtn">Buy</button>
       </div>
       <div className="rightContainerlarge">
-        <iframe width="400" height="300" src="https://www.youtube.com/embed/jg5d59ligW4" title="Mobishaala Digital Classroom" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="385" height="210" src="https://www.youtube.com/embed/jg5d59ligW4" title="Mobishaala Digital Classroom" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <button type="button" className="buyBtn">Buy</button>
       </div>
       </div>
       <div className="downContainer">
         <p>Institute/Teacher</p>
         <button type="button" className="startBtn">Get Started </button>
-        <p>Student</p>
+        <p className='sider'>Student</p>
         <button type="button" className="downloadBtn">Download App</button>
         <br/>
         <button className="chatBtn" type="button"><img src="https://res.cloudinary.com/dollmqugm/image/upload/t_whts/v1710466080/whts_y0onex.png" className="whatsappicon" alt="whatsup"/> Talk to Us</button>

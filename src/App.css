@@ -24,7 +24,8 @@
 .downContainer{
   display: flex;
   flex-direction: column;
-  margin-left:135px;
+  text-align: left;
+  margin-left:170px;
 }
 .buyBtn{
   padding:10px;
@@ -33,9 +34,12 @@
   color:white;
   border:none;
   width:60px;
-  margin-left:120px;
-
+  margin-left:30px;
   letter-spacing: 0.5px;
+  margin-top: 10px;
+}
+.sider{
+  margin-left: 35px;
 }
 .footerSection{
   padding: 20px;
@@ -92,7 +96,8 @@ p{
   padding-bottom: -20px;
 }
 .highlighter{
-  color:gold;
+  color:#ddac17;
+  font-weight: bolder;
 }
 .leftContent{
   width:100%;
@@ -104,8 +109,17 @@ p{
 }
 .rightContainer{
   margin-top:30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  margin-left: 60px;
   
 }
+iframe{
+  border-radius:10px;
+  border: none;
+  }
 .whatsappicon{
   width:30px;
   background-color:#25d366 ;
@@ -137,12 +151,18 @@ p{
   .rightContainerlarge{
     display: block;
   }
+  .sider{
+    margin-left: 0px;
+  }
   .companyName{
     display: block;
     font-size:60px;
     font-style: italic;
     font-weight: 500;
     font-family: fantasy;
+  }
+  #frame{
+    border-radius: 8px;
   }
   .container{
     flex-direction:row;
@@ -177,7 +197,9 @@ p{
     font-size: 14px;
   }
   .buyBtn{
-    margin-left: 200px;
+    margin-left: 160px;
+    margin-top: 10px;
+    font-weight: bold;
   }
   .leftContent{
     width:100%;
