@@ -14,7 +14,7 @@ function App() {
           </ul>
         </div>
         <div className="rightContainer">
-        <iframe width="330" height="180" src="https://www.youtube.com/embed/jg5d59ligW4" title="Mobishaala Digital Classroom" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="260" height="145" src="https://www.youtube.com/embed/jg5d59ligW4" title="Mobishaala Digital Classroom" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <button type="button" className="buyBtn">Buy</button>
       </div>
       <div className="rightContainerlarge">
